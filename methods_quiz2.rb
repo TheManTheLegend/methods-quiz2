@@ -1,7 +1,7 @@
 module MethodsQuiz2
 	
 	def without_doubles(a,b,no_doubles)
-		if a == b || no_doubles == true
+		if a == b && no_doubles == true
 			if a == 6 
 				a = 1
 			else
@@ -56,8 +56,5 @@ module MethodsQuiz2
 		else
 			return 0
 		end
-			
-		
 	end
-
 end
