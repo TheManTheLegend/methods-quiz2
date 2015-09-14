@@ -1,7 +1,7 @@
 module MethodsQuiz2
 	
-	def has_doubles?(a,b)
-		if a == b 
+	def without_doubles(a,b,no_doubles)
+		if a == b || no_doubles == true
 			if a == 6 
 				a = 1
 			else
